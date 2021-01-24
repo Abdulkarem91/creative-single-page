@@ -170,7 +170,7 @@ a, a:hover {
 
             .parent3{
                 display: block;
-                
+                margin-top: 0px;
             }
 
             .red-strategy{
@@ -178,7 +178,7 @@ a, a:hover {
                 left: 0px !important;
                 width: 375px !important;
                 height: 918px;
-                top: 1853px !important;
+                top: 1709px !important;
             }
 
             .text {
@@ -190,13 +190,14 @@ a, a:hover {
                 padding: 20px;
             }
 
+           
 
            .white-strategy h3{
             position: absolute;
             width: 327px !important;
             height: 120px;
             left: 25px !important;
-            top: 1859px !important;
+            top: 1745px !important;
             color: white;
             font-size: 32px !important;
             line-height: 40px;
