@@ -346,5 +346,8 @@ a, a:hover {
                                 display: block;
                             }
 
+                            .divtwo img {
+                                width: 375px;
+                            }
                          }
-                         
+
