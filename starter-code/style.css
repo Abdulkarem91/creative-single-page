@@ -168,7 +168,7 @@ a, a:hover {
             }
 
             .img-section img{
-                width: 375px !important;
+                width: 100vw;
             }
 
             .parent3{
@@ -179,7 +179,7 @@ a, a:hover {
             .red-strategy{
                 position: absolute;
                 left: 0px !important;
-                width: 375px !important;
+                width: 100vw !important;
                 height: 918px;
                 top: 1709px !important;
             }
