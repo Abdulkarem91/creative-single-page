@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .topnav {
@@ -208,10 +208,6 @@ a, a:hover {
 
         }
     
-
-        
- 
-       
         .parent3 {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
@@ -272,10 +268,3 @@ a, a:hover {
                     text-decoration: none;
                     
                 }
-
-                /* @media(max-width: 992px){
-                    a.footer-btn  {
-                        position: relative;
-                        top: 39px !important;
-                    }
-                } */
