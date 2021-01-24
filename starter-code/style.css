@@ -193,7 +193,9 @@ a, a:hover {
                 padding: 20px;
             }
 
-           
+            .text p {
+                font-size: calc(14px + 2vw);
+            }
 
            .white-strategy h3{
             position: absolute;
