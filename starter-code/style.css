@@ -112,7 +112,7 @@ a, a:hover {
 
         }
     }
-
+/*  
     .parent2 {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -270,3 +270,46 @@ a, a:hover {
                     text-decoration: none;
                     
                 }
+*/
+
+                .parent5 {
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    grid-template-rows: repeat(5, 1fr);
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    }
+                    
+                    .divone { grid-area: 1 / 3 / 2 / 6; }
+                    .divtwo { grid-area: 1 / 1 / 3 / 3; }
+                    .divthree { grid-area: 2 / 3 / 4 / 6; }
+                    .divfour { grid-area: 3 / 2 / 3 / 4; }
+
+                    .divone {
+                        background-color: #191921;
+                        color: white;
+                        text-align: left;
+                        padding: 150px;
+                    }
+
+                    .divone span {
+                        color: #F94F4F;
+                    }
+
+                    .divthree{
+                        background-color:  #F94F4F;
+                        color: white;
+                        padding: 150px 50px;
+                    }
+
+                    .divfour {
+                        padding: 70px 0;
+                        line-height: 64px;
+                    }
+
+                    .divfour h3 {
+                       
+                        font-size: 56px;
+                    }
+
+                    
