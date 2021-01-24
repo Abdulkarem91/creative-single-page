@@ -77,8 +77,6 @@ a, a:hover {
     .div1 { grid-area: 1 / 3 / 6 / 6; }
     .div2 { grid-area: 2 / 2 / 4 / 4; }
 
-   
-
     .div2 h1 {
         font-size: 80px;
         line-height: 88px;
@@ -112,242 +110,106 @@ a, a:hover {
 
         }
     }
-/*  
-    .parent2 {
+
+/* this is for the middle grid section */
+        .parent5 {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         }
-        
-        .img-section {
-           
-               grid-row: 1 / span 5;
-               grid-column: 1 / span 1;
-            }
-        .text-section { 
-           
-             grid-row: 1 / span 2;
-             grid-column: 4 / span 2;
-             }
-             
-             .div3 { grid-area: 4 / 2 / 6 / 6; }
+
+        .divone { grid-area: 1 / 3 / 2 / 6; }
+        .divtwo { grid-area: 1 / 1 / 3 / 3; }
+        .divthree { grid-area: 2 / 3 / 4 / 6; }
+        .divfour { grid-area: 3 / 2 / 3 / 4; }
+
+        .divone {
+        background-color: #191921;
+        color: white;
+        text-align: left;
+        padding: 150px;
+        }
+
+        .divone span {
+        color: #F94F4F;
+        }
+
+        .divthree{
+        background-color:  #F94F4F;
+        color: white;
+        padding: 150px 50px;
+        }
+
+        .divfour {
+        padding: 70px 0;
+        line-height: 64px;
+        }
+
+        .divfour h3 {
+
+        font-size: 56px;
+        }
+
+        .parent6 {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+
+        .divfive { grid-area: 1 / 3 / 3 / 6; }
+        .divsix { grid-area: 1 / 1 / 2 / 5; }
 
 
-        .text-section {
+        .divsix {
             background-color: #191921;
             color: white;
+            font-size: 50px;
             text-align: left;
+        }
+            
+        .carousel-item p,h5 {
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .footer-text{
+            font-size: 55px;
+        }
+
+        .footer-btn {
             padding: 10px;
-            
-        }
-
-        .text-section span {
-            color: #F94F4F;
-        }
-
-        .text-section h2 {
-            margin-top: 230px;
-            font-size: 56px;
-        }
-
-        .text-section p {
-            font-size: 20px;  
-         }
-
-         @media(max-width: 576px){
-            .parent2 {
-                display: block;
-                margin-top: 20px;
-            }
-
-
-            .text-section h2 {
-                margin-top: 50px;
-            }
-
-            .img-section img{
-                width: 100vw;
-            }
-
-            .parent3{
-                display: block;
-                margin-top: 0px;
-            }
-
-            .red-strategy{
-                position: absolute;
-                left: 0px !important;
-                width: 100vw !important;
-                height: 918px;
-                top: 1709px !important;
-            }
-
-            .text {
-                position: absolute;
-                left: 0px !important;
-                width: 483px !important;
-                height: 918px;
-                top: 250px !important;
-                padding: 20px;
-            }
-
-            .text p {
-                font-size: calc(14px + 2vw);
-            }
-
-           .white-strategy h3{
-            position: absolute;
-            width: 327px !important;
-            height: 120px;
-            left: 25px !important;
-            top: 1745px !important;
             color: white;
-            font-size: 32px !important;
-            line-height: 40px;
-           }
-
-        }
-    
-        .parent3 {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(5, 1fr);
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
-            }
+            background-color: #F94F4F;
+            text-decoration: none;
             
-            .red-strategy { grid-area: 1 / 4 / 6 / 6; }
-            .white-strategy { grid-area: 2 / 3 / 4 / 5; }
+        }
 
-            .red-strategy {
-                background-color:  #F94F4F;
-                color: white;
-                padding: 60px;
-                position: absolute;
-                width: 895px;
-                height: 1100px;
-                left: 588px;
-                top: 1509px;
+        @media(max-width: 576px){
+            .parent5{
+                display: block;
             }
 
-            .white-strategy h3 {
-                position: absolute;
-                width: 540px;
-                height: 192px;
-                left: 232px;
-                top: 2162px;
-                font-size: 56px;
-                line-height: 64px;
+            .parent6{
+                display: block;
             }
-        
-           
-                .space {
-                    height: 771px;
-                }
 
-                .text-right {
-                    background-color: #191921;
-                    color: white;
-                    font-size: 50px;
-                    text-align: center;
-                }
+            .divsix p{
+                text-align: center;
+            }
 
-                .text-right p{
-                   
-                    text-align: center;
-                }
+            .divone {
+                margin-top: 5px;
+                padding: 30px;
+            }
 
-                
-*/
+            .divone {
+                text-align: left;
+            }
 
-                .parent5 {
-                    display: grid;
-                    grid-template-columns: repeat(5, 1fr);
-                    grid-template-rows: repeat(3, 1fr);
-                    grid-column-gap: 0px;
-                    grid-row-gap: 0px;
-                    }
-                    
-                    .divone { grid-area: 1 / 3 / 2 / 6; }
-                    .divtwo { grid-area: 1 / 1 / 3 / 3; }
-                    .divthree { grid-area: 2 / 3 / 4 / 6; }
-                    .divfour { grid-area: 3 / 2 / 3 / 4; }
-
-                    .divone {
-                        background-color: #191921;
-                        color: white;
-                        text-align: left;
-                        padding: 150px;
-                    }
-
-                    .divone span {
-                        color: #F94F4F;
-                    }
-
-                    .divthree{
-                        background-color:  #F94F4F;
-                        color: white;
-                        padding: 150px 50px;
-                    }
-
-                    .divfour {
-                        padding: 70px 0;
-                        line-height: 64px;
-                    }
-
-                    .divfour h3 {
-                       
-                        font-size: 56px;
-                    }
-
-                    .parent6 {
-                        display: grid;
-                        grid-template-columns: repeat(5, 1fr);
-                        grid-template-rows: repeat(2, 1fr);
-                        grid-column-gap: 0px;
-                        grid-row-gap: 0px;
-                        }
-                        
-                        .divfive { grid-area: 1 / 3 / 3 / 6; }
-                        .divsix { grid-area: 1 / 1 / 2 / 5; }
-
-
-                        .divsix {
-                            background-color: #191921;
-                            color: white;
-                            font-size: 50px;
-                            text-align: left;
-                        }
-                          
-                        .carousel-item p,h5 {
-                            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-                        }
-
-                        .footer-text{
-                            font-size: 55px;
-                        }
-        
-                        .footer-btn {
-                            padding: 10px;
-                            color: white;
-                            background-color: #F94F4F;
-                            text-decoration: none;
-                            
-                        }
-
-                        @media(max-width: 576px){
-                            .parent5{
-                                display: block;
-                            }
-
-                            .parent6{
-                                display: block;
-                            }
-
-                            .divtwo img {
-                                width: 375px;
-                            }
-                         }
-
+            .divfour{
+                padding: 10px;
+            }
+            }
