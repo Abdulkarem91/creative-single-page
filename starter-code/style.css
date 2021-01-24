@@ -239,11 +239,39 @@ a, a:hover {
                 font-size: 56px;
                 line-height: 64px;
             }
-            
-            /* .text {
-                position: absolute;
-                width: 504px;
-                height: 196px;
-               
+        
+           
+                .space {
+                    height: 771px;
+                }
 
-            } */
+                .text-right {
+                    background-color: #191921;
+                    color: white;
+                    font-size: 50px;
+                    text-align: center;
+                }
+
+                .text-right p{
+                   
+                    text-align: center;
+                }
+
+                .footer-text{
+                    font-size: 55px;
+                }
+
+                .footer-btn {
+                    padding: 10px;
+                    color: white;
+                    background-color: #F94F4F;
+                    text-decoration: none;
+                    
+                }
+
+                /* @media(max-width: 992px){
+                    a.footer-btn  {
+                        position: relative;
+                        top: 39px !important;
+                    }
+                } */
