@@ -259,23 +259,13 @@ a, a:hover {
                     text-align: center;
                 }
 
-                .footer-text{
-                    font-size: 55px;
-                }
-
-                .footer-btn {
-                    padding: 10px;
-                    color: white;
-                    background-color: #F94F4F;
-                    text-decoration: none;
-                    
-                }
+                
 */
 
                 .parent5 {
                     display: grid;
                     grid-template-columns: repeat(5, 1fr);
-                    grid-template-rows: repeat(5, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
                     grid-column-gap: 0px;
                     grid-row-gap: 0px;
                     }
@@ -312,4 +302,49 @@ a, a:hover {
                         font-size: 56px;
                     }
 
-                    
+                    .parent6 {
+                        display: grid;
+                        grid-template-columns: repeat(5, 1fr);
+                        grid-template-rows: repeat(2, 1fr);
+                        grid-column-gap: 0px;
+                        grid-row-gap: 0px;
+                        }
+                        
+                        .divfive { grid-area: 1 / 3 / 3 / 6; }
+                        .divsix { grid-area: 1 / 1 / 2 / 5; }
+
+
+                        .divsix {
+                            background-color: #191921;
+                            color: white;
+                            font-size: 50px;
+                            text-align: left;
+                        }
+                          
+                        .carousel-item p,h5 {
+                            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+                        }
+
+                        .footer-text{
+                            font-size: 55px;
+                        }
+        
+                        .footer-btn {
+                            padding: 10px;
+                            color: white;
+                            background-color: #F94F4F;
+                            text-decoration: none;
+                            
+                        }
+
+                        @media(max-width: 576px){
+                            .parent5{
+                                display: block;
+                            }
+
+                            .parent6{
+                                display: block;
+                            }
+
+                         }
+                         
